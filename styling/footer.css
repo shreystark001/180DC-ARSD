@@ -1,0 +1,145 @@
+.footer-div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.489);
+    display:flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 0.25rem white;
+    position: relative;
+    border-radius: 2rem;
+    padding: 1rem 0 0rem 0;
+}
+
+.footer-text-logo{
+    display:flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-left{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    column-gap: 40vw;
+    
+}
+
+.footer-middle{
+    display:flex;
+    flex: 0.35;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50vw;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-a-project{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, #578a19,#345112,#1d3502), radial-gradient(circle at top left, #3451128e);
+    box-shadow: 1rem 1rem 1rem black;
+    padding: 3rem 3rem 3rem 3rem;
+    border: solid 0.1rem white;
+    margin-bottom: 2rem;
+    transition: box-shadow 3s ease-in;
+}
+
+.start-a-project:hover{
+    background-image: radial-gradient(circle at top left, #497b0fda);
+    box-shadow: 1rem 1rem 1rem rgb(15, 15, 15);
+}
+
+.lets-build{
+    text-align:center;
+    color:white;
+    background-color: black;
+    font-size: large;
+    font-weight:bold;
+    padding: 1rem;
+    border:ridge 0.3rem whitesmoke;
+    border-radius:3rem;
+    margin-left:1rem;
+    text-wrap: nowrap;
+    cursor:pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.start-proj-text{
+    font-size: 2rem;
+    text-wrap: nowrap; 
+    padding-right:0.rem;
+}
+
+.collab-text{
+    font-size: 1.5rem;
+}
+
+.lets-build:hover{
+    background-image:linear-gradient(to left, rgba(245, 245, 245, 0.9),rgb(222, 219, 219));
+    color:black;
+    transition: background-color ease-in-out 0.3s;
+}
+
+.my-icon{
+    height:12rem;
+    width:12rem;
+    margin-bottom:2rem;
+    background-image: url(./bg-img/android-chrome-192x192.png);
+}
+
+.contact-icons{
+    margin-left: 2rem;
+    width:3rem;
+    height:3rem;
+}
+
+.contact-icons:hover{
+    padding: 0.4rem 0.2rem 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+    box-shadow:inset 0.2rem 0.2rem rgba(106, 142, 35, 0.359);
+
+}
+
+.social-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.made-with-love{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.copy{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color:gray;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:2rem;
+    color:white;
+    font-size: 1.3rem;
+}
+
